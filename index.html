@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Events Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Events Playground</h1>
+
+    <!-- Button Events Section -->
+    <section>
+      <h2>Button Events</h2>
+      <button id="myButton">Click Me</button>
+      <button id="colorButton">Change My Color</button>
+      <div id="hoverElement" class="hover-box">Hover Over Me</div>
+      <div id="secretElement" class="secret-box">Double-Click For Secret</div>
+    </section>
+
+    <!-- Keypress Detection -->
+    <section>
+      <h2>Keypress Detection</h2>
+      <div id="keyDisplay" class="key-container">
+        <p>Press any key</p>
+      </div>
+    </section>
+
+    <!-- Image Slideshow -->
+    <section>
+      <h2>Image Slideshow</h2>
+      <div class="slideshow-container">
+        <img id="slideshow" src="https://placekitten.com/300/200" alt="Slideshow">
+        <div class="controls">
+          <button id="prevButton">Previous</button>
+          <button id="nextButton">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Validation -->
+    <section>
+      <h2>Form Validation</h2>
+      <form id="validationForm" novalidate>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+          <span class="feedback" id="emailFeedback"></span>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" required>
+          <span class="feedback" id="passwordFeedback"></span>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
